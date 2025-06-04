@@ -51,10 +51,10 @@ def error_no_choice(argument):
 
 #Para crear finales
 def ending(multimedia, tiempo): #Suputamare esta huevada funciona a las justas
-    time.sleep(0.3)
     variable = Image.open(f"imagen/{multimedia}.png")
+    time.sleep(0.4)
     variable.show()
-    time.sleep(2)
+    time.sleep(2.2)
     keyboard.press_and_release("f11")
     mixer.music.load(f"audio/{multimedia}.mp3")
     mixer.music.play()

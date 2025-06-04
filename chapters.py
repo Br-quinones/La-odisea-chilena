@@ -64,7 +64,7 @@ def chapter_2():
     #Eleccion 2
     s.question("Luchar contra esos bandalos con valentia.",
                 "Retirase de este oasis con cobardia.")
-
+    
     while True:
         print("↓ Escriba su eleccion") ; msvcrt.getch()
         choice_player = keyboard.read_key()

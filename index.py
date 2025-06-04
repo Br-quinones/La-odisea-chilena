@@ -66,7 +66,7 @@
 #Dia 3: La dieta del caballo xdxdxd
 #Dia 4: jugar solo rimworld xddddddddddddddddd
 #Dia 5: por el culo te la inco xdxdxd, bueno esta vez si chambie, estuve con el arte ascci de finales
-
+#
 from colorama import Fore
 import msvcrt
 

@@ -62,9 +62,9 @@
 
 
 #Dia 1: Refactorizar la historia por 3° vez y arreglar bugs con la parte de elecciones del jugador
-#Dia 2: Una gampiiiiiiiiiiiiiiiiiiii, just i play rimwolrd
+#Dia 2: Una gampiiiiiiiiiiiiiiiiiiii, just i play rimworld
 #Dia 3: La dieta del caballo xdxdxd
-#Dia 4: jugar solo rimwolrd xddddddddddddddddd
+#Dia 4: jugar solo rimworld xddddddddddddddddd
 #Dia 5: por el culo te la inco xdxdxd, bueno esta vez si chambie, estuve con el arte ascci de finales
 
 from colorama import Fore

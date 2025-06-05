@@ -39,19 +39,17 @@ def chapter_1():
             s.dialogue("Roleo", "El teniente se apunta a si mismo y dispara...")
             s.ending("teniente_suicida", 10)
             s.ascci_end("C", "La muerte del teniente fue un calvario lento y tortuoso, provocada por su estupidez.")
-            break
         elif choice_player == "2":
             s.pass_line()
             s.dialogue("Edgar", "Bueno Gonzalez, algo de razón tiene...")
             s.dialogue("Roleo", "El teniente cae en desmayo por la insolacion.")
-            chapter_2() #Inicio del capitulo 2, aunque en verdad solo son escenas tmr
-            break
+            chapter_2() #Inicio del capitulo 2
         else:
             s.error_no_choice(1)
 
 def chapter_2():
     #Escena 2
-    s.dialogue("Roleo", "El teniente despierta con un oasis a su izquierda.")
+    s.dialogue("Roleo", "Llegada la noche despierta con un oasis a su izquierda.")
     s.dialogue("Edgar", "Si si si... un dias mas de vida.")
     s.dialogue("Gonzalez", "Teniente... estamos jodidos, unos bandalos marcaron este oasis.")
     s.dialogue("Gonzalez", "Vendran en una hora y mataran a cualquiera que este aqui.")
@@ -64,12 +62,12 @@ def chapter_2():
     #Eleccion 2
     s.question("Luchar contra esos bandalos con valentia.",
                 "Retirase de este oasis con cobardia.")
-    
+
     while True:
         print("↓ Escriba su eleccion") ; msvcrt.getch()
         choice_player = keyboard.read_key()
         
-        if choice_player == "1": #Segundo final aca
+        if choice_player == "1": #Segundo final
             s.pass_line()
             s.dialogue("Edgar", "Soldados, alisten sus fusiles, vamos contra esos bandolos.")
             s.dialogue("Edgar", "Nos nos dejareos intimidar por nada y por nadie.")
@@ -81,10 +79,15 @@ def chapter_2():
             s.pass_line()
             s.dialogue("Edgar", "Soldados, empiezen a marchar nos retiraremos.")
             s.dialogue("Edgar", "No vale la pena perder nuestras vidas por un simple oasis.")
-            s.dialogue("Roleo", "Pasan las horas hasta llegar a la madrugada.")
+            s.dialogue("Roleo", "Pasan las horas hasta llegar a la madrugada...")
             break
         else:
             s.error_no_choice(1)
+
+def chapter_3():
+    s.dialogue("Gonzalez", "Teniente esos bandolos devieron de venir de algun pueblo o asentamiento.")
+    s.dialogue("Gonzalez", "Muy lejos de la civilización no deveremos de estar.")
+    s.dialogue("Edgar", "Busquemos aquellos")
 
 
     

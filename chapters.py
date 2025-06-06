@@ -37,7 +37,7 @@ def chapter_1():
             s.pass_line()
             s.dialogue("Edgar", "Bueno el revolver ya esta aleatorizado, ahora solo toca jugar.")
             s.dialogue("Roleo", "El teniente se apunta a si mismo y dispara...")
-            s.ending("teniente_suicida", 10)
+            s.ending("teniente_suicida")
             s.ascci_end("C", "La muerte del teniente fue un calvario lento y tortuoso, provocada por su estupidez.")
         elif choice_player == "2":
             s.pass_line()
@@ -72,25 +72,59 @@ def chapter_2():
             s.dialogue("Edgar", "Soldados, alisten sus fusiles, vamos contra esos bandolos.")
             s.dialogue("Edgar", "Nos nos dejareos intimidar por nada y por nadie.")
             s.dialogue("Roleo", "Llego la madrugada y a las lejanias se observo el enemigo...")
-            s.ending("batallon_caido", 10)
+            s.ending("batallon_caido")
             s.ascci_end("B", "La muerte de todo el batallón fue en valentía ante un enemigo supremo en número.")
-            break
         elif choice_player == "2":
             s.pass_line()
             s.dialogue("Edgar", "Soldados, empiezen a marchar nos retiraremos.")
             s.dialogue("Edgar", "No vale la pena perder nuestras vidas por un simple oasis.")
             s.dialogue("Roleo", "Pasan las horas hasta llegar a la madrugada...")
-            break
+            chapter_3() #inicio del cap 3
         else:
             s.error_no_choice(1)
 
 def chapter_3():
-    s.dialogue("Gonzalez", "Teniente esos bandolos devieron de venir de algun pueblo o asentamiento.")
+    s.dialogue("Gonzalez", "Teniente esos bandolos devieron de llegar de algun pueblo o asentamiento.")
     s.dialogue("Gonzalez", "Muy lejos de la civilización no deveremos de estar.")
-    s.dialogue("Edgar", "Busquemos aquellos")
+    s.dialogue("Edgar", "Busquemos aquel pueblo entonces.")
+    s.dialogue("Fernandez", "¿Se supone que estamos buscando el mismo pueblo de donde salieron los bandios?")
+    s.dialogue("Gonzalez", "A callar pesimista, esa es nuestra ultima salvación")
+    s.dialogue("Edgar", "Shhh silencio, ¿escuchan eso? es el sonido de la civilización.")
+    s.dialogue("Roleo", "El batallón se acerca a aquel sonido, encontrando un campamento misterioso.")
+    s.dialogue("Edgar", "tendremos que ir no hay mas opción, es preguntar o morir.")
+    s.dialogue("Rodriguez", "Vamos entonces teniente.")
+    s.dialogue("Extraño", "¡Hey alto ahi o disparo!")
+    s.dialogue("Edgar", "Tranquilo somos soldados que sirven a la patria.")
+    s.dialogue("Extraño", "¿Cual patria?")
+    s.dialogue("Edgar", "La chilena desde luego.")
+    s.dialogue("Extraño", "Con que la chilena. Hmmm...")
+    s.dialogue("Extraño", "Bueno entonces quedense, les daremos suministros  y techo para que sigan su viaje.")
+    s.dialogue("Rodriguez", "Teniente nosotros estamos buscando un pueblo. No un campamento militar.")
+    s.dialogue("Gonzalez", "Deveriamos de quedarmos esta noche y luego partir.")
+    s.dialogue("Fernandez", "Este campamento y su gente son sospechosos, reabastezcamos y largemonos.")
 
+    #Eleccion 3
+    s.question("Agarremos lo necesario y larguemonos lo antes posible.",
+                "Quedemonos toda la noche, y tomemos aun mas suministros. ")
 
-    
+    while True:
+        print("↓ Escriba su eleccion") ; msvcrt.getch()
+        choice_player = keyboard.read_key()
+        
+        if choice_player == "1":
+            s.pass_line()
+            print("Edgar", "Batallon no tenemos tiempo que perder, toman lo ofrecido y marchemos.")
+            print("Roleo", "El batallon toma lo suministros ofrecidos lo mas rapido y se marcha.")
+        elif choice_player == "2": #Tercer final
+            s.pass_line()
+            s.dialogue("Edgar", "Soldados, descazaremos aquí mañana en la madrugada continuaremos.")
+            s.dialogue("Roleo", "Pasan las horas y cuando la medianoche llego..")
+            s.ending("batallon_caido") #la_traicion
+            s.ascci_end("A", "En la noche oscura el lobo disfrazado de oveja ataco al vulnerale batallón.")
+            s.pass_line()
+        else:
+            s.error_no_choice(1)
+
 
 
 

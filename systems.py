@@ -13,7 +13,7 @@ def dialogue(character , message):
     if character == "Edgar":
         print(Fore.BLUE + f"{character}: " + Fore.RESET + message + "\n")
         msvcrt.getch()
-    elif character == "Annabel Lee":
+    elif character == "Extraño":
         print(Fore.MAGENTA + f"{character}: " + Fore.RESET + message + "\n")
         msvcrt.getch()
     elif character == "Fernandez":
@@ -50,7 +50,7 @@ def error_no_choice(argument):
             print(Fore.RED + "Caracter invalido." + "\n" + Fore.RESET)
 
 #Para crear finales
-def ending(multimedia, tiempo): #Suputamare esta huevada funciona a las justas
+def ending(multimedia): #Suputamare esta huevada funciona a las justas
     variable = Image.open(f"imagen/{multimedia}.png")
     time.sleep(0.4)
     variable.show()
@@ -58,7 +58,7 @@ def ending(multimedia, tiempo): #Suputamare esta huevada funciona a las justas
     keyboard.press_and_release("f11")
     mixer.music.load(f"audio/{multimedia}.mp3")
     mixer.music.play()
-    time.sleep(tiempo)
+    time.sleep(10)
     keyboard.press_and_release("ctrl+w")
 
 #Musica del juego musica_de_todo_el_juego

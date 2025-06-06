@@ -43,7 +43,7 @@ def chapter_1():
             s.pass_line()
             s.dialogue("Edgar", "Bueno Gonzalez, algo de razón tiene...")
             s.dialogue("Roleo", "El teniente cae en desmayo por la insolacion.")
-            chapter_2() #Inicio del capitulo 2
+            chapter_2()
         else:
             s.error_no_choice(1)
 
@@ -79,7 +79,7 @@ def chapter_2():
             s.dialogue("Edgar", "Soldados, empiezen a marchar nos retiraremos.")
             s.dialogue("Edgar", "No vale la pena perder nuestras vidas por un simple oasis.")
             s.dialogue("Roleo", "Pasan las horas hasta llegar a la madrugada...")
-            chapter_3() #inicio del cap 3
+            chapter_3() 
         else:
             s.error_no_choice(1)
 
@@ -97,7 +97,7 @@ def chapter_3():
     s.dialogue("Edgar", "Tranquilo somos soldados que sirven a la patria.")
     s.dialogue("Extraño", "¿Cual patria?")
     s.dialogue("Edgar", "La chilena desde luego.")
-    s.dialogue("Extraño", "Con que la chilena. Hmmm...")
+    s.dialogue("Extraño", "La chilena...")
     s.dialogue("Extraño", "Bueno entonces quedense, les daremos suministros  y techo para que sigan su viaje.")
     s.dialogue("Rodriguez", "Teniente nosotros estamos buscando un pueblo. No un campamento militar.")
     s.dialogue("Gonzalez", "Deveriamos de quedarmos esta noche y luego partir.")
@@ -115,15 +115,20 @@ def chapter_3():
             s.pass_line()
             print("Edgar", "Batallon no tenemos tiempo que perder, toman lo ofrecido y marchemos.")
             print("Roleo", "El batallon toma lo suministros ofrecidos lo mas rapido y se marcha.")
+            chapter_3()
         elif choice_player == "2": #Tercer final
             s.pass_line()
             s.dialogue("Edgar", "Soldados, descazaremos aquí mañana en la madrugada continuaremos.")
             s.dialogue("Roleo", "Pasan las horas y cuando la medianoche llego..")
-            s.ending("batallon_caido") #la_traicion
+            s.ending("la_traicion") 
             s.ascci_end("A", "En la noche oscura el lobo disfrazado de oveja ataco al vulnerale batallón.")
             s.pass_line()
         else:
             s.error_no_choice(1)
+
+def chapter_4():
+    s.dialogue("Edgar", "Ahora que chucha algo zzzzzzzzz")
+
 
 
 

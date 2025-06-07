@@ -127,18 +127,38 @@ def chapter_3():
             s.error_no_choice(1)
 
 def chapter_4():
-    s.dialogue("Edgar", "Ahora que chucha algo zzzzzzzzz")
+    s.dialogue("Edgar", "Tan solo sigamos buscando aquel pueblo...")
+    s.dialogue("Rodriguez", "Esos suministros se acabaron tan rapido...")
+    s.dialogue("Gonzales", "Con el frio del desierto y la falta de sumistros esto sera imposible.")
+    s.dialogue("Fernandez", "Teniente tengo una idea, si nos dividimos, 2 al oeste y 2 al este.")
+    s.dialogue("Rodriguez", "¿Que pasara con los 2 que no encuentren el pueblo?")
+    s.dialogue("Fernandez", "El grupo que llegue a salvo devera de emprender una busqueda.")
+    s.dialogue("Gonzales", "Propongo algo mejor, cada uno a una direccion, este, oeste, sur y norte.")
+    s.dialogue("Rodriguez", "¿Acaso Propones que uno de nosotros regrese por donde venimos?")
+    s.dialogue("Rodriguez", "Sigamos avanzando juntos, como lo hemos hecho en todo el viaje.")
+    
+    #Eleccion 4
+    s.question("Deveriamos separarnos en grupos de 2.",
+                "Deveriamos ir cada uno por un camino (norte, sur, este, oeste).",
+                "Deveriamos manternos todos juntos.")
 
-
-
-
-
-
-
-
-
-
-
+    while True:
+        print("↓ Escriba su eleccion") ; msvcrt.getch()
+        choice_player = keyboard.read_key()
+        
+        if choice_player == "1":
+            s.pass_line()
+        elif choice_player == "2": #Cuarto final
+            s.pass_line()
+            s.dialogue("Edgar", "Soldados, descazaremos aquí mañana en la madrugada continuaremos.")
+            s.dialogue("Roleo", "Pasan las horas y cuando la medianoche llego..")
+            s.ending("la_traicion") 
+            s.ascci_end("A", "En la noche oscura el lobo disfrazado de oveja ataco al vulnerale batallón.")
+            s.pass_line()
+        else:
+            s.error_no_choice(1)
+    
+    
 
 
 

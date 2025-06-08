@@ -55,9 +55,34 @@ def choice_of_chapter(argument):
         else:
             s.error_no_choice(1)
 
-#Ejecutar musica y pantalla completa
+def screen_loading():
+    print("\n"*1)
+    print(" ██████╗ ██████╗ ███╗   ██╗████████╗██████╗  ██████╗ ██╗     ███████╗███████╗       ".center(115))
+    print("██╔════╝██╔═══██╗████╗  ██║╚══██╔══╝██╔══██╗██╔═══██╗██║     ██╔════╝██╔════╝    ██╗".center(115))
+    print("██║     ██║   ██║██╔██╗ ██║   ██║   ██████╔╝██║   ██║██║     █████╗  ███████╗    ╚═╝".center(115))
+    print("██║     ██║   ██║██║╚██╗██║   ██║   ██╔══██╗██║   ██║██║     ██╔══╝  ╚════██║    ██╗".center(115))
+    print("╚██████╗╚██████╔╝██║ ╚████║   ██║   ██║  ██║╚██████╔╝███████╗███████╗███████║    ╚═╝".center(115))
+    print(" ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝       ".center(115))
+    print("\n"*2)
+    print(Fore.BLUE+"        TECLA:            TECLA:             TECLA:        ".center(115) + Fore.RESET)
+    print("██████████████    ██████████████    ██████████████ ".center(115))
+    print("██    ██╗   ██    ██ ██████╗  ██    ██  ██████╗ ██ ".center(115))   
+    print("██   ███║   ██    ██ ╚════██╗ ██    ██  ╚═══██║ ██ ".center(115))   
+    print("██   ╚██║   ██    ██  █████╔  ██    ██   █████╝ ██ ".center(115))   
+    print("██    ██║   ██    ██ ██╔═══╝  ██    ██   ╚══██╗ ██ ".center(115))   
+    print("██    ██║   ██    ██ ███████╗ ██    ██  ██████║ ██ ".center(115))   
+    print("██    ╚═╝   ██    ██ ╚══════╝ ██    ██  ╚═════╝ ██ ".center(115))
+    print("██████████████    ██████████████    ██████████████ ".center(115))
+    print("\n"*1)
+    print(Fore.BLUE + "Presione cualquier TECLA para continuar".center(115) + Fore.RESET)
+    msvcrt.getch()
+                                                
+
+#Ejecutar musica y pantalla completa + pantalla de carga
 if __name__ == "__main__":
     s.borderland()
+    s.clean_screen()
+    screen_loading()
     s.music_game()
 
 #Menu principal

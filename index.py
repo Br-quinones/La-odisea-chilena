@@ -114,3 +114,15 @@ borderland()
 woman_normal()
 dialogue("""¡Oye tú! ¿Crees que eres bueno en algo? ¿Piensas que tienes la mente más rápida que la mía? ¡Ja! Me da la risa.He estado practicando mis estrategias secretas y mis movimientos maestros... Y déjame decirte, ¡estoy lista! Así que, te reto, sí, a ti, a una partida de tres en raya.No te asustes, eh. Solo quiero ver si tienes lo necesario para ganarle a la campeona. Pero te advierto, no me ando con chiquitas. ¡Vas a tener que esforzarte mucho si quieres ver cómo le pongo una "X" a tu "O"!¿Aceptas el reto o te vas a acobardar? ¡Dime cuándo y dónde!""")
 
+
+
+#           
+#
+#            ███████
+#            ██   ██
+#            ██   ██
+#      ████████   ██
+#      ██  ENTER  ██
+#      █████████████
+#
+#

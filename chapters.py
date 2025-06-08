@@ -150,11 +150,11 @@ def chapter_4():
             s.pass_line()
         elif choice_player == "2": #Cuarto final
             s.pass_line()
-            s.dialogue("Edgar", "Soldados, descazaremos aquí mañana en la madrugada continuaremos.")
-            s.dialogue("Roleo", "Pasan las horas y cuando la medianoche llego..")
-            s.ending("la_traicion") 
             s.ascci_end("A", "En la noche oscura el lobo disfrazado de oveja ataco al vulnerale batallón.")
             s.pass_line()
+        elif choice_player == "3":
+            s.pass_line()
+            print("Fin de l a beta")
         else:
             s.error_no_choice(1)
     

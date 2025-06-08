@@ -76,7 +76,7 @@ def clean_screen():
 def borderland():
     keyboard.press_and_release("f11")
     for _ in range(8):
-        keyboard.press_and_release('ctrl+plus')
+        keyboard.press_and_release("ctrl+plus")
 
 #Salir de programa
 def exit_program():

@@ -5,7 +5,7 @@
 #            _____
 #        /\ /_____\
 #       /\/ \     /
-#      / /   \_█_/ 
+#      / /   \_-_/ 
 #      \ \ """"V"//""\
 #       \__    |//   \
 #          |   //  |\ \
@@ -45,6 +45,7 @@
 #| |_| | | |  __/ 
 # \__|_| |_|\___| 
 #
+
 #Dia 1: Refactorizar la historia por 3° vez y arreglar bugs con la parte de elecciones del jugador
 #Dia 2: Una gampiiiiiiiiiiiiiiiiiiii, just i play rimworld
 #Dia 3: La dieta del caballo xdxdxd
@@ -52,8 +53,10 @@
 #Dia 5: por el culo te la inco xdxdxd, bueno esta vez si chambie, estuve con el arte ascci de finales, tambien probando el Git
 #Dia 6: Hoy si po otra cosecha, termine el capitulo 2 y estoy apunto de irme por el 3, pero ya veremos. Depaso unos arreglos por ahi,
 #Dia 7: Trabajando en el capitulo 3 y algunas minusias mas
-#Dia 8: Termine el cap 3 y tamos con el 4°, tmr por huevona no acabe el cap4, mañana nomas ps
+#Dia 8: Termine el cap 3 y tamos con el 4°, tmr por huevon no acabe el cap4, mañana nomas ps
 #Day 9: Carajomieda, no tuve tiempo que programar el principal. porque me distraje con el proximo proyecto, ta que soy una lacra
+#Day ten: CARAJOMIERDA, 70 EJERCICIOS DE ESE PROFE HJP, solo puse la guia de controles y no avanze nada en el nuevo proyecto.
+
 
 #Librerias
 import time ; import sys ; import msvcrt ; import keyboard

@@ -113,27 +113,26 @@ def chapter_3():
         
         if choice_player == "1":
             s.pass_line()
-            print("Edgar", "Batallon no tenemos tiempo que perder, toman lo ofrecido y marchemos.")
-            print("Roleo", "El batallon toma lo suministros ofrecidos lo mas rapido y se marcha.")
-            chapter_3()
+            s.dialogue("Edgar", "Batallon no tenemos tiempo que perder, toman lo ofrecido y marchemos.")
+            s.dialogue("Roleo", "El batallon toma lo suministros ofrecidos lo mas rapido y se marcha.")
+            chapter_4()
         elif choice_player == "2": #Tercer final
             s.pass_line()
             s.dialogue("Edgar", "Soldados, descazaremos aquí mañana en la madrugada continuaremos.")
             s.dialogue("Roleo", "Pasan las horas y cuando la medianoche llego..")
             s.ending("la_traicion") 
             s.ascci_end("A", "En la noche oscura el lobo disfrazado de oveja ataco al vulnerale batallón.")
-            s.pass_line()
         else:
             s.error_no_choice(1)
 
 def chapter_4():
     s.dialogue("Edgar", "Tan solo sigamos buscando aquel pueblo...")
     s.dialogue("Rodriguez", "Esos suministros se acabaron tan rapido...")
-    s.dialogue("Gonzales", "Con el frio del desierto y la falta de sumistros esto sera imposible.")
+    s.dialogue("Gonzalez", "Con el frio del desierto y la falta de sumistros esto sera imposible.")
     s.dialogue("Fernandez", "Teniente tengo una idea, si nos dividimos, 2 al oeste y 2 al este.")
     s.dialogue("Rodriguez", "¿Que pasara con los 2 que no encuentren el pueblo?")
     s.dialogue("Fernandez", "El grupo que llegue a salvo devera de emprender una busqueda.")
-    s.dialogue("Gonzales", "Propongo algo mejor, cada uno a una direccion, este, oeste, sur y norte.")
+    s.dialogue("Gonzalez", "Propongo algo mejor, cada uno a una direccion, este, oeste, sur y norte.")
     s.dialogue("Rodriguez", "¿Acaso Propones que uno de nosotros regrese por donde venimos?")
     s.dialogue("Rodriguez", "Sigamos avanzando juntos, como lo hemos hecho en todo el viaje.")
     
@@ -148,13 +147,20 @@ def chapter_4():
         
         if choice_player == "1":
             s.pass_line()
-        elif choice_player == "2": #Cuarto final
+            s.dialogue("Edgar", "El uno")
+            s.ending("final_malo")
+            s.ascci_end("B", "Nignuno de los grupos llego, muriendo los dos en el desierto.")
+        elif choice_player == "2": 
             s.pass_line()
-            s.ascci_end("A", "En la noche oscura el lobo disfrazado de oveja ataco al vulnerale batallón.")
-            s.pass_line()
+            s.dialogue("Edgar", "El dos")
+            s.ending("final_malo")
+            s.ascci_end("B", "Tan solo llego un soldado que muriendo de depresión poco despues.")
         elif choice_player == "3":
             s.pass_line()
-            print("Fin de l a beta")
+            s.dialogue("Edgar", "El tres")
+            s.ending("final_bueno")
+            s.ascci_end("S", "Todo el batallon volvio a Santiago ahora estan junto a su patria y familia.")
+
         else:
             s.error_no_choice(1)
     

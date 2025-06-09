@@ -51,11 +51,11 @@
 #Dia 3: La dieta del caballo xdxdxd
 #Dia 4: jugar solo rimworld xddddddddddddddddd
 #Dia 5: por el culo te la inco xdxdxd, bueno esta vez si chambie, estuve con el arte ascci de finales, tambien probando el Git
-#Dia 6: Hoy si po otra cosecha, termine el capitulo 2 y estoy apunto de irme por el 3, pero ya veremos. Depaso unos arreglos por ahi,
+#Dia 6: Hoy si po otra cosecha, termine el capitulo 2 y estoy apunto de irme por el 3, pero ya veremos. Depaso unos arreglos.
 #Dia 7: Trabajando en el capitulo 3 y algunas minusias mas
 #Dia 8: Termine el cap 3 y tamos con el 4°, tmr por huevon no acabe el cap4, mañana nomas ps
-#Day 9: Carajomieda, no tuve tiempo que programar el principal. porque me distraje con el proximo proyecto, ta que soy una lacra
-#Day ten: CARAJOMIERDA, 70 EJERCICIOS DE ESE PROFE HJP, solo puse la guia de controles y no avanze nada en el nuevo proyecto.
+#Dia 9: Carajomieda, no tuve tiempo que programar el principal. porque me distraje con el proximo proyecto.
+#Dia 10: solo puse la guia de controles. casi cuando acaba la noche agrege las imagenes del fin
 
 
 #Librerias

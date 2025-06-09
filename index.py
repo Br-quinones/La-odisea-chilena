@@ -56,14 +56,14 @@
 #Dia 8: Termine el cap 3 y tamos con el 4°, tmr por huevon no acabe el cap4, mañana nomas ps
 #Dia 9: Carajomieda, no tuve tiempo que programar el principal. porque me distraje con el proximo proyecto.
 #Dia 10: solo puse la guia de controles. casi cuando acaba la noche agrege las imagenes del fin
-
+#Dia 11: Trabajar en el cap 4 para ya intentar finalizarlo
 
 #Librerias
 import time ; import sys ; import msvcrt ; import keyboard
 from colorama import Fore, Style
 
 #Graficos
-def woman_normal():
+def men_normal():
     print(Fore.BLUE + Style.BRIGHT,end="")
     print("            ▒▒▒▓███████████▓▒           ")
     print("        ▒██████████▓▓▓▓██▓████▓         ")
@@ -114,7 +114,7 @@ def borderland():
         time.sleep(0.01)
 
 borderland()
-woman_normal()
+men_normal()
 dialogue("""¡Oye tú! ¿Crees que eres bueno en algo? ¿Piensas que tienes la mente más rápida que la mía? ¡Ja! Me da la risa.He estado practicando mis estrategias secretas y mis movimientos maestros... Y déjame decirte, ¡estoy lista! Así que, te reto, sí, a ti, a una partida de tres en raya.No te asustes, eh. Solo quiero ver si tienes lo necesario para ganarle a la campeona. Pero te advierto, no me ando con chiquitas. ¡Vas a tener que esforzarte mucho si quieres ver cómo le pongo una "X" a tu "O"!¿Aceptas el reto o te vas a acobardar? ¡Dime cuándo y dónde!""")
 
 

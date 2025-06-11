@@ -77,7 +77,6 @@ def screen_loading():
     print(Fore.BLUE + "Presione cualquier TECLA para continuar".center(115) + Fore.RESET)
     msvcrt.getch()
                                                 
-
 #Ejecutar musica y pantalla completa + pantalla de carga
 if __name__ == "__main__":
     s.borderland()

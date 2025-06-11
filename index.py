@@ -1,6 +1,6 @@
 #Esto esta solo para probar algunas cositas antes de impentar en el juego base, ademas de algunos apuntes, recuerdos o ascci.
 
-#                                            #La odisea chilena (1883█1893)
+#                                            #La odisea chilena (1883-1893)
 
 #            _____
 #        /\ /_____\
@@ -46,17 +46,18 @@
 # \__|_| |_|\___| 
 #
 
-#Dia 1: Refactorizar la historia por 3° vez y arreglar bugs con la parte de elecciones del jugador
-#Dia 2: Una gampiiiiiiiiiiiiiiiiiiii, just i play rimworld
-#Dia 3: La dieta del caballo xdxdxd
-#Dia 4: jugar solo rimworld xddddddddddddddddd
+#Dia 1: Refactorizar la historia por tercera vez y arreglar bugs con la parte de elecciones del jugador.
+#Dia 2: Una gampiiiiiiiiiiiiiiiiiiii, solo jugando el riwmolrdiossssss.
+#Dia 3: La dieta del caballo xdxdxd osea paja y agua xdxdxd.
+#Dia 4: jugar solo rimworld xddddddddddddddddd como un huevonaso crjmrd.
 #Dia 5: por el culo te la inco xdxdxd, bueno esta vez si chambie, estuve con el arte ascci de finales, tambien probando el Git
 #Dia 6: Hoy si po otra cosecha, termine el capitulo 2 y estoy apunto de irme por el 3, pero ya veremos. Depaso unos arreglos.
-#Dia 7: Trabajando en el capitulo 3 y algunas minusias mas
-#Dia 8: Termine el cap 3 y tamos con el 4°, tmr por huevon no acabe el cap4, mañana nomas ps
-#Dia 9: Carajomieda, no tuve tiempo que programar el principal. porque me distraje con el proximo proyecto.
-#Dia 10: solo puse la guia de controles. casi cuando acaba la noche agrege las imagenes del fin
-#Dia 11: Trabajar en el cap 4 para ya intentar finalizarlo
+#Dia 7: Trabajando en el capitulo 3 y algunas minusias mas.
+#Dia 8: Termine el cap 3 y tamos con el 4°, tmr por huevon no acabe el cap4, mañana nomas ps.
+#Dia 9: Carajomierda profe tetraquinta hijoputa 160 ejercicios, no se pase ps si somos secuandaria. No hubo avanze pipipi.
+#Dia 10: Puse la guia de controles. casi cuando acaba la noche agrege las imagenes para los finales.
+#Dia 11: Trabajar en el cap 4 para ya intentar finalizarlo pero esos 160 ejercicios no me dejan trabajar agusto crjmrd.
+#Dia 12: No se trabajo en el principal, pero se empezo a planear el siguiente proyecto.
 
 #Librerias
 import time ; import sys ; import msvcrt ; import keyboard
@@ -129,3 +130,7 @@ dialogue("""¡Oye tú! ¿Crees que eres bueno en algo? ¿Piensas que tienes la m
 #      █████████████
 #
 #
+
+
+
+

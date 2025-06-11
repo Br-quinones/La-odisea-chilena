@@ -1,12 +1,6 @@
-import os
-import sys
-import menu
-import time
-import msvcrt
-import keyboard
-from PIL import Image
-from pygame import mixer
-from colorama import Fore, Style
+import os ; import sys; import menu ; import time
+import msvcrt; import keyboard ;from PIL import Image
+from pygame import mixer ;from colorama import Fore, Style
 
 #Para crear dialogos
 def dialogue(character , message):
@@ -50,11 +44,11 @@ def error_no_choice(argument):
             print(Fore.RED + "Caracter invalido." + "\n" + Fore.RESET)
 
 #Para crear finales
-def ending(multimedia): #Suputamare esta huevada funciona a las justas
+def ending(multimedia):
     variable = Image.open(f"imagen/{multimedia}.png")
-    time.sleep(0.4)
+    time.sleep(0.5)
     variable.show()
-    time.sleep(2.2)
+    time.sleep(2.3)
     keyboard.press_and_release("f11")
     mixer.music.load(f"audio/{multimedia}.mp3")
     mixer.music.play()

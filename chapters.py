@@ -163,25 +163,3 @@ def chapter_4():
 
         else:
             s.error_no_choice(1)
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #Volver al Menu principal
-    menu.main_menu()
-

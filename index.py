@@ -57,7 +57,7 @@
 #Dia 9: Carajomierda profe tetraquinta hijoputa 160 ejercicios, no se pase ps si somos secuandaria. No hubo avanze pipipi.
 #Dia 10: Puse la guia de controles. casi cuando acaba la noche agrege las imagenes para los finales.
 #Dia 11: Trabajar en el cap 4 para ya intentar finalizarlo pero esos 160 ejercicios no me dejan trabajar agusto crjmrd.
-#Dia 12: No se trabajo en el principal, pero se empezo a planear el siguiente proyecto.
+#Dia 12: Probando el pyinstaller y haciendolo funcionar para pasar de .py a un rico .exe.
 
 #Librerias
 import time ; import sys ; import msvcrt ; import keyboard

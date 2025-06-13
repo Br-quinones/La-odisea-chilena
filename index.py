@@ -1,63 +1,33 @@
 #Esto esta solo para probar algunas cositas antes de impentar en el juego base, ademas de algunos apuntes, recuerdos o ascci.
 
-#                                            #La odisea chilena (1883-1893)
-
-#            _____
-#        /\ /_____\
-#       /\/ \     /
-#      / /   \_-_/ 
-#      \ \ """"V"//""\
-#       \__    |//   \
-#          |   //  |\ \
-#          |  //   | \ \
-#          | //|   | / /
-#          |// |   |/\/
-#          |==[0]==|\/
-#          |   |   |
-#          |   |   |
-#          |   |   |
-#          |   |   |
-#          |   |   |
-#          |___|___|
-#           |_ | _|
-#          (___|___)
-#         
-#         ╔   ╗
-#    ╔     ███╚    ╗
-#       ║███████║
-#    ╚    ╗███╔    ╝
-#         ╚   ╝║
-#        
-#                                                        
-#███████╗██╗███╗   ██╗ █████╗ ██╗         ███████╗        
-#██╔    ╝██║████╗  ██║██╔  ██╗██║         ██╔    ╝    ██
-#█████╗  ██║██╔██╗ ██║███████║██║         ███████╗  ██████
-#██╔  ╝  ██║██║╚██╗██║██╔  ██║██║         ╚    ██║    ██
-#██║     ██║██║ ╚████║██║  ██║███████╗    ███████║             
-#╚ ╝     ╚ ╝╚ ╝  ╚   ╝╚ ╝  ╚ ╝╚      ╝    ╚      ╝    
-# 
-# print("Dineros infinitos")   
-#
-#  _   _           
-#| | | |          
-#| |_| |__   ___  
-#| __| '_ \ / _ \ 
-#| |_| | | |  __/ 
-# \__|_| |_|\___| 
-#
+#                                            La odisea chilena (1883-1893)
 
 #Dia 1: Refactorizar la historia por tercera vez y arreglar bugs con la parte de elecciones del jugador.
-#Dia 2: Una gampiiiiiiiiiiiiiiiiiiii, solo jugando el riwmolrdiossssss.
-#Dia 3: La dieta del caballo xdxdxd osea paja y agua xdxdxd.
-#Dia 4: jugar solo rimworld xddddddddddddddddd como un huevonaso crjmrd.
-#Dia 5: por el culo te la inco xdxdxd, bueno esta vez si chambie, estuve con el arte ascci de finales, tambien probando el Git
-#Dia 6: Hoy si po otra cosecha, termine el capitulo 2 y estoy apunto de irme por el 3, pero ya veremos. Depaso unos arreglos.
-#Dia 7: Trabajando en el capitulo 3 y algunas minusias mas.
-#Dia 8: Termine el cap 3 y tamos con el 4°, tmr por huevon no acabe el cap4, mañana nomas ps.
-#Dia 9: Carajomierda profe tetraquinta hijoputa 160 ejercicios, no se pase ps si somos secuandaria. No hubo avanze pipipi.
-#Dia 10: Puse la guia de controles. casi cuando acaba la noche agrege las imagenes para los finales.
-#Dia 11: Trabajar en el cap 4 para ya intentar finalizarlo pero esos 160 ejercicios no me dejan trabajar agusto crjmrd.
-#Dia 12: Probando el pyinstaller y haciendolo funcionar para pasar de .py a un rico .exe. tambien se agrego el icono.
+#Dia 2: No avances, estuve jugando RimWorld.
+#Dia 3: Jaja otro dia sin avances.
+#Dia 4: jugar solo RimWorld otro día mas.
+#Dia 5: Bueno esta vez si trabaje, estuve con el arte ascci de finales, tambien probando GitHub.
+#Dia 6: Termine el capitulo 2 y arreglos de algunos bugs.
+#Dia 7: Trabajando en el capitulo 3 y limpiando el codigo un poquito.
+#Dia 8: Termine el capitulo 3 y estoy con el 4 capitulo.
+#Dia 9: No hubo avanze por tareas con la secundaria. Solo un poco con el 4 capitulo.
+#Dia 10: Agrege la guia de controles y agrege las imagenes para los finales.
+#Dia 11: Trabaje en el capitulo 4, retrasos tambien por la secundaría.
+#Dia 12: Probando el pyinstaller y haciendolo funcionar para pasar de .py a .exe. tambien se agrego el icono.
+#Dia 13: Se investiga y programa para ver si es posible crear el siguiente proyecto. No cambios es este proyecto hoy.
+#Dia 14: Se termina la historia, Correcion de ortografia y de sentido en el capitulo 1 y cambios en el index. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Librerias
 import time ; import sys ; import msvcrt ; import keyboard
@@ -117,20 +87,5 @@ def borderland():
 borderland()
 men_normal()
 dialogue("""¡Oye tú! ¿Crees que eres bueno en algo? ¿Piensas que tienes la mente más rápida que la mía? ¡Ja! Me da la risa.He estado practicando mis estrategias secretas y mis movimientos maestros... Y déjame decirte, ¡estoy lista! Así que, te reto, sí, a ti, a una partida de tres en raya.No te asustes, eh. Solo quiero ver si tienes lo necesario para ganarle a la campeona. Pero te advierto, no me ando con chiquitas. ¡Vas a tener que esforzarte mucho si quieres ver cómo le pongo una "X" a tu "O"!¿Aceptas el reto o te vas a acobardar? ¡Dime cuándo y dónde!""")
-
-
-
-#           
-#
-#            ███████
-#            ██   ██
-#            ██   ██
-#      ████████   ██
-#      ██  ENTER  ██
-#      █████████████
-#
-#
-
-
 
 

@@ -3,46 +3,43 @@ import msvcrt
 import keyboard
 import systems as s
 
-#Lo divide las funciones en capitulos para testear de manera mas facil ## recuerda we
-
 def chapter_1():
     #Limpiar la pantalla
     print("Cargando...")
     s.clean_screen()
     
     #Escena 1
-    s.dialogue("Roleo", "La victoria del pacifico es para ustedes ¡Chile gano! Pero estan atrapados en un desierto. ")
+    s.dialogue("Roleo", "La victoria del Pacífico es para ustedes ¡Chile ganó! Pero estan atrapados en un desierto")
     s.dialogue("Fernandez", "¿Alguien sabe cuántos días llevamos tragando polvo?")
     s.dialogue("Edgar", "No pienses en eso. Solo sigue marchando.")
     s.dialogue("Rodriguez", "¡Es fácil decirlo, cuando todavía te quedas la mayor porción de agua!")
     s.dialogue("Gonzalez", "Rodriguez. Gritar no hace brotar agua.")
-    s.dialogue("Edgar", "Descansemos un momento, tengo algo para ustedes.")
-    s.dialogue("Edgar", "Los suministros no alcanzaran para todos.")
-    s.dialogue("Roleo", "El teniente saca un revolver")
+    s.dialogue("Edgar", "Descansemos un momento. Tengo algo para ustedes.")
+    s.dialogue("Edgar", "Los suministros no alcanzarán para todos.")
+    s.dialogue("Roleo", "El teniente saca un revólver")
     s.dialogue("Fernandez", "¿Teniente...?")
     s.dialogue("Rodriguez", "¿Teniente...?")
-    s.dialogue("Gonzalez", "¿Teniente...?")
-    s.dialogue("Edgar", "Un juego rapido de la ruleta rusa.")
-    s.dialogue("Gonzalez", "Teniente acaba de caer en la locura por insolacion.")
+    s.dialogue("Edgar", "Un juego rapido de rápido rusa.")
+    s.dialogue("Gonzalez", "Teniente usted acaba de enloquecer por insolación.")
     
     #Elección 1
-    s.question( "Una partidita no caeria mal ¡Empiezo yo!",
-                "Tal vez si este algo loco por el calor desertico.",)
+    s.question( "Una partidita no caería mal ¡Empiezo yo!",
+                "Tal vez si este algo loco por el calor desértico.",)
     
     while True:
-        print("↓ Escriba su eleccion") ; msvcrt.getch()
+        print("↓ Escriba su elección") ; msvcrt.getch()
         choice_player = keyboard.read_key()
         
         if choice_player == "1": #Primer final
             s.pass_line()
-            s.dialogue("Edgar", "Bueno el revolver ya esta aleatorizado, ahora solo toca jugar.")
-            s.dialogue("Roleo", "El teniente se apunta a si mismo y dispara...")
+            s.dialogue("Edgar", "Bueno, el revólver ya esta Listo. ahora solo toca jugar.")
+            s.dialogue("Roleo", "El teniente se apunta a sí mismo y dispara...")
             s.ending("teniente_suicida")
-            s.ascci_end("C", "La muerte del teniente fue un calvario lento y tortuoso, provocada por su estupidez.")
+            s.ascci_end("C", "La muerte del teniente fue un calvario lento y tortuoso. Resultado de su estupidez.")
         elif choice_player == "2":
             s.pass_line()
-            s.dialogue("Edgar", "Bueno Gonzalez, algo de razón tiene...")
-            s.dialogue("Roleo", "El teniente cae en desmayo por la insolacion.")
+            s.dialogue("Edgar", "Bueno, Gonzalez, algo de razón tienes...")
+            s.dialogue("Roleo", "El teniente cae desmayado por insolación")
             chapter_2()
         else:
             s.error_no_choice(1)
@@ -64,7 +61,7 @@ def chapter_2():
                 "Retirase de este oasis con cobardia.")
 
     while True:
-        print("↓ Escriba su eleccion") ; msvcrt.getch()
+        print("↓ Escriba su elección") ; msvcrt.getch()
         choice_player = keyboard.read_key()
         
         if choice_player == "1": #Segundo final
@@ -108,7 +105,7 @@ def chapter_3():
                 "Quedemonos toda la noche, y tomemos aun mas suministros. ")
 
     while True:
-        print("↓ Escriba su eleccion") ; msvcrt.getch()
+        print("↓ Escriba su elección") ; msvcrt.getch()
         choice_player = keyboard.read_key()
         
         if choice_player == "1":
@@ -142,24 +139,29 @@ def chapter_4():
                 "Deveriamos manternos todos juntos.")
 
     while True:
-        print("↓ Escriba su eleccion") ; msvcrt.getch()
+        print("↓ Escriba su elección") ; msvcrt.getch()
         choice_player = keyboard.read_key()
         
         if choice_player == "1":
             s.pass_line()
-            s.dialogue("Edgar", "El uno")
+            s.dialogue("Edgar", "Fernandez y Gonzalez iran al norte, Rodriguez y yo iremos al sur.")
+            s.dialogue("Rodriguez", "Pero teniente...")
             s.ending("final_malo")
             s.ascci_end("B", "Nignuno de los grupos llego, muriendo los dos en el desierto.")
         elif choice_player == "2": 
             s.pass_line()
-            s.dialogue("Edgar", "El dos")
+            s.dialogue("Edgar", "Cada uno a su camino. Yo eligo el oeste. Ustedes eligan el suyo.")
+            s.dialogue("Rodriguez", "Pero teniente...")
             s.ending("final_malo")
             s.ascci_end("B", "Tan solo llego un soldado que muriendo de depresión poco despues.")
         elif choice_player == "3":
             s.pass_line()
-            s.dialogue("Edgar", "El tres")
+            s.dialogue("Edgar", "Sigamos todos juntos para el este.")
+            s.dialogue("Rodriguez", "Si teniente...")
             s.ending("final_bueno")
             s.ascci_end("S", "Todo el batallon volvio a Santiago ahora estan junto a su patria y familia.")
 
         else:
             s.error_no_choice(1)
+
+

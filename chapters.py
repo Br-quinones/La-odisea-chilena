@@ -46,19 +46,19 @@ def chapter_1():
 
 def chapter_2():
     #Escena 2
-    s.dialogue("Roleo", "Llegada la noche despierta con un oasis a su izquierda.")
-    s.dialogue("Edgar", "Si si si... un dias mas de vida.")
-    s.dialogue("Gonzalez", "Teniente... estamos jodidos, unos bandalos marcaron este oasis.")
-    s.dialogue("Gonzalez", "Vendran en una hora y mataran a cualquiera que este aqui.")
-    s.dialogue("Fernandez", "Tendremos que luchar, somos soldados entrenados para eso.")
-    s.dialogue("Rodriguez", "Vayamonos no vale la pena luchar siendo solo 5 y con suministros limitados.")
-    s.dialogue("Gonzalez", "Mas aun que pasaria si alguno de nosotros muere.")
-    s.dialogue("Fernandez", "Maldia seas con ustedes, estuvimos en plena guerra y no vamos a poder con unos forasteros.")
-    s.dialogue("Fernandez", "Somos soldados con fusiles y entrenamiento, contra unos bandalos con pistolas y sin entrenamiento.")
+    s.dialogue("Roleo", "Llegada la noche despiertas al costado de un oasis")
+    s.dialogue("Edgar", "Sí, sí, sí... un dias mas de vida.")
+    s.dialogue("Gonzalez", "Teniente... estamos jodidos, unos bandidos marcaron este oasis.")
+    s.dialogue("Gonzalez", "Llegaran en unas horas y matarán a cualquiera que esté aquí.")
+    s.dialogue("Fernandez", "Tenemos que luchar. ¡Somos soldados entrenados para eso!")
+    s.dialogue("Rodriguez", "Retirémonos no vale la pena luchar siendo solo cuatro y con suministros limitados.")
+    s.dialogue("Gonzalez", "Más aún, ¿que pasaría si alguno de nosotros cae en batalla?")
+    s.dialogue("Fernandez", "¡Maldición! con ustedes... estuvimos en plena guerra y no vamos a poder con unos bandidos.")
+    s.dialogue("Fernandez", "Somos soldados con fusiles y entrenamiento, contra unos bandidos mal armados.")
 
     #Eleccion 2
-    s.question("Luchar contra esos bandalos con valentia.",
-                "Retirase de este oasis con cobardia.")
+    s.question("Luchar contra esos bandidos con valentía.",
+                "Retirarse de este oasis con cobardía.")
 
     while True:
         print("↓ Escriba su elección") ; msvcrt.getch()
@@ -66,39 +66,36 @@ def chapter_2():
         
         if choice_player == "1": #Segundo final
             s.pass_line()
-            s.dialogue("Edgar", "Soldados, alisten sus fusiles, vamos contra esos bandolos.")
-            s.dialogue("Edgar", "Nos nos dejareos intimidar por nada y por nadie.")
-            s.dialogue("Roleo", "Llego la madrugada y a las lejanias se observo el enemigo...")
+            s.dialogue("Edgar", "Soldados, alisten sus fusiles, vamos contra esos bandidos.")
+            s.dialogue("Edgar", "No nos dejaremos intimidar por nada y ni por nadie.")
+            s.dialogue("Roleo", "Llegó la madrugada y a las lejanías se observo el enemigo...")
             s.ending("batallon_caido")
             s.ascci_end("B", "La muerte de todo el batallón fue en valentía ante un enemigo supremo en número.")
         elif choice_player == "2":
             s.pass_line()
-            s.dialogue("Edgar", "Soldados, empiezen a marchar nos retiraremos.")
-            s.dialogue("Edgar", "No vale la pena perder nuestras vidas por un simple oasis.")
-            s.dialogue("Roleo", "Pasan las horas hasta llegar a la madrugada...")
+            s.dialogue("Edgar", "Soldados, empiecen a marchar nos retiraremos.")
+            s.dialogue("Edgar", "No vale la pena perder nuestras por un charco de agua.")
+            s.dialogue("Roleo", "Las horas pasaron hasta el amanecer...")
             chapter_3() 
         else:
             s.error_no_choice(1)
 
 def chapter_3():
     s.dialogue("Gonzalez", "Teniente esos bandolos devieron de llegar de algun pueblo o asentamiento.")
-    s.dialogue("Gonzalez", "Muy lejos de la civilización no deveremos de estar.")
-    s.dialogue("Edgar", "Busquemos aquel pueblo entonces.")
-    s.dialogue("Fernandez", "¿Se supone que estamos buscando el mismo pueblo de donde salieron los bandios?")
-    s.dialogue("Gonzalez", "A callar pesimista, esa es nuestra ultima salvación")
+    s.dialogue("Gonzalez", "Muy lejos de la civilización no devemos de estar.")
+    s.dialogue("Edgar", "Busquemos aquel lugar entonces.")
     s.dialogue("Edgar", "Shhh silencio, ¿escuchan eso? es el sonido de la civilización.")
-    s.dialogue("Roleo", "El batallón se acerca a aquel sonido, encontrando un campamento misterioso.")
-    s.dialogue("Edgar", "tendremos que ir no hay mas opción, es preguntar o morir.")
-    s.dialogue("Rodriguez", "Vamos entonces teniente.")
-    s.dialogue("Extraño", "¡Hey alto ahi o disparo!")
-    s.dialogue("Edgar", "Tranquilo somos soldados que sirven a la patria.")
+    s.dialogue("Roleo", "El batallón se acerca a aquel sonido, encontrando un campamento militar.")
+    s.dialogue("Edgar", "Acerquémonos a pedir suministros.")
+    s.dialogue("Extraño", "¡Hey, alto ahi o disparo!")
+    s.dialogue("Edgar", "Baja el arma, somos soldados que sirven a la patria.")
     s.dialogue("Extraño", "¿Cual patria?")
     s.dialogue("Edgar", "La chilena desde luego.")
     s.dialogue("Extraño", "La chilena...")
-    s.dialogue("Extraño", "Bueno entonces quedense, les daremos suministros  y techo para que sigan su viaje.")
+    s.dialogue("Extraño", "Quedense entonces, les daremos suministros y techo para que sigan con su viaje.")
     s.dialogue("Rodriguez", "Teniente nosotros estamos buscando un pueblo. No un campamento militar.")
     s.dialogue("Gonzalez", "Deveriamos de quedarmos esta noche y luego partir.")
-    s.dialogue("Fernandez", "Este campamento y su gente son sospechosos, reabastezcamos y largemonos.")
+    s.dialogue("Fernandez", "No, Este campamento y sus soldados son desconocidos, abastezcamos y largemonos.")
 
     #Eleccion 3
     s.question("Agarremos lo necesario y larguemonos lo antes posible.",

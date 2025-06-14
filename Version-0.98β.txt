@@ -1,1 +1,0 @@
-Lo de las versiones se jodio porque introduci git en medio del proyecto

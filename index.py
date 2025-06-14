@@ -1,7 +1,11 @@
-#                                                    La odisea chilena
+#Ignorar esto! Ignorar esto! Ignorar esto! Ignorar esto! Ignorar esto! Ignorar esto! Ignorar esto! Ignorar esto! Ignorar esto!
+# 
+#                                                 La odisea chilena
 
 #Mi segundo gran proyecto que realizo, el cual trata de un teniente que debe guiar a su batallón despues de la guerra del Pacifico. Estan en el desierto de Atacama al borde de la muerte con la esperanza de regresar a Santiago. 
 
+
+#Dias de trabajo desde mis vacaciones hasta finalizar el proyecto
 #Dia 1: Refactorizar la historia por tercera vez y arreglar bugs con la parte de elecciones del jugador.
 #Dia 2: No avances, estuve jugando RimWorld.
 #Dia 3: Jaja otro dia sin avances.
@@ -17,3 +21,4 @@
 #Dia 13: Se investiga y programa para ver si es posible crear el siguiente proyecto. No cambios es este proyecto hoy.
 #Dia 14: Se termina la historia, Correcion de ortotipografía y de sentido en el capitulo 1 y cambios en el index. 
 #Dia 15: Correción en la ortotipografía en el capitulo 2. Tambien se creo el GDD para el proximo proyecto.
+#Dia 16: Correción ortotipografía en los capitulos 3 y 4.

@@ -111,7 +111,7 @@ def credits():
 
     menu.main_menu()
 
-#Pasar linea
+#Pasar lineas
 def pass_line():
     print("") #Esa huevada solo por que se ve feo en el codigo poner un "\n", ademas solo se usara unas veces
 
@@ -132,12 +132,12 @@ def ascci_end(puntuation, text):
     
     elif puntuation == "B":
         print(Fore.YELLOW,end="")
-        print("███████╗██╗███╗   ██╗ █████╗ ██╗          ██████╗".center(115))
-        print("██╔════╝██║████╗  ██║██╔══██╗██║          ██╔══██╗".center(115))
-        print("█████╗  ██║██╔██╗ ██║███████║██║          ██████╔╝".center(115))
-        print("██╔══╝  ██║██║╚██╗██║██╔══██║██║          ██╔══██╗".center(115))
-        print("██║     ██║██║ ╚████║██║  ██║███████╗     ██████╔╝".center(115))
-        print("╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝     ╚═════╝ ".center(115))
+        print("███████╗██╗███╗   ██╗ █████╗ ██╗         ██████╗".center(115))
+        print("██╔════╝██║████╗  ██║██╔══██╗██║         ██╔══██╗".center(115))
+        print("█████╗  ██║██╔██╗ ██║███████║██║         ██████╔╝".center(115))
+        print("██╔══╝  ██║██║╚██╗██║██╔══██║██║         ██╔══██╗".center(115))
+        print("██║     ██║██║ ╚████║██║  ██║███████╗    ██████╔╝".center(115))
+        print("╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝    ╚═════╝ ".center(115))
         print(Fore.RESET,end="")
 
     elif puntuation == "A":
@@ -169,6 +169,8 @@ def ascci_end(puntuation, text):
     msvcrt.getche()
     music_game()
     menu.main_menu()
+
+    
     
 
 

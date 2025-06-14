@@ -18,7 +18,7 @@ def tittle_of_the_game(argument):
     print("      ██║   ██╔══██║██╔══╝      ██║   ██║██║  ██║  ╚██╔╝  ╚════██║╚════██║██╔══╝    ╚██╔╝  ")
     print("      ██║   ██║  ██║███████╗    ╚██████╔╝██████╔╝   ██║   ███████║███████║███████╗   ██║   ")
     print("      ╚═╝   ╚═╝  ╚═╝╚══════╝     ╚═════╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝╚══════╝   ╚═╝   ")
-    print(Fore.BLUE + "                                   ᴱˢᶜʳᶦᵇᵃ ¹ / ² / ³                              " + Fore.RESET)
+    print("                                                                                           ")
     print("                                                                                                     _____")
     print("                                                                                                 /\\ /_____\\")
     print("                                                                                                /\\/ \\     /")
@@ -37,7 +37,7 @@ def tittle_of_the_game(argument):
     print("                                                                                                   |   |   |")
     print("                                                                                                   |___|___|")
     print("                                                                                                    |_ | _|")
-    print("                                                                                                   (___|___) v0.98-β")
+    print("                                                                                                   (___|___) v1.0")
     print(Fore.RESET, end="")
 
 def choice_of_chapter(argument):

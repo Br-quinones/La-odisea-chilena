@@ -21,4 +21,4 @@
 #Dia 13: Se investiga y programa para ver si es posible crear el siguiente proyecto. No cambios es este proyecto hoy.
 #Dia 14: Se termina la historia, Correcion de ortotipografía y de sentido en el capitulo 1 y cambios en el index. 
 #Dia 15: Correción en la ortotipografía en el capitulo 2. Tambien se creo el GDD para el proximo proyecto.
-#Dia 16: Correción ortotipografía en los capitulos 3 y 4.
+#Dia 16: Correción ortotipografía en los capitulos 3 y 4. Se termina el juego con la 1.1.

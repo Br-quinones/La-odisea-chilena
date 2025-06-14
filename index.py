@@ -16,4 +16,4 @@
 #Dia 12: Probando el pyinstaller y haciendolo funcionar para pasar de .py a .exe. tambien se agrego el icono.
 #Dia 13: Se investiga y programa para ver si es posible crear el siguiente proyecto. No cambios es este proyecto hoy.
 #Dia 14: Se termina la historia, Correcion de ortografia y de sentido en el capitulo 1 y cambios en el index. 
-#Dia 15: Correción en la ortografia en el capitulo 2. Tambien se creo el GDD para el proximo proyecto.
+#Dia 15: Correción en la ortotipografía en el capitulo 2. Tambien se creo el GDD para el proximo proyecto.

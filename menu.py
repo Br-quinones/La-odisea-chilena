@@ -73,8 +73,14 @@ def screen_loading():
     print("██    ██║   ██    ██ ███████╗ ██    ██  ██████║ ██ ".center(115))   
     print("██    ╚═╝   ██    ██ ╚══════╝ ██    ██  ╚═════╝ ██ ".center(115))
     print("██████████████    ██████████████    ██████████████ ".center(115))
+    print("                                                   ".center(115))
+    print("███████████████████████████████████████████████████".center(115))   
+    print("██                                               ██".center(115))   
+    print("██                  [ESPACE]                     ██".center(115))   
+    print("██                                               ██".center(115))
+    print("███████████████████████████████████████████████████".center(115))
     print("\n"*1)
-    print(Fore.BLUE + "Presione cualquier TECLA para continuar".center(115) + Fore.RESET)
+    print(Fore.BLUE + "Presione ESPACIO para continuar.".center(115) + Fore.RESET)
     msvcrt.getch()
                                                 
 #Ejecutar musica y pantalla completa + pantalla de carga

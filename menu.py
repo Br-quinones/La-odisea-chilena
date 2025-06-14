@@ -37,7 +37,7 @@ def tittle_of_the_game(argument):
     print("                                                                                                   |   |   |")
     print("                                                                                                   |___|___|")
     print("                                                                                                    |_ | _|")
-    print("                                                                                                   (___|___) v1.0")
+    print("                                                                                                   (___|___) v1.1")
     print(Fore.RESET, end="")
 
 def choice_of_chapter(argument):

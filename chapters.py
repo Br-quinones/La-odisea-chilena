@@ -30,7 +30,7 @@ def chapter_1():
         
         if choice_player == "1": #Primer final
             s.pass_line()
-            s.dialogue("Edgar", "Bueno, el revólver ya está Listo. Ahora solo toca jugar.")
+            s.dialogue("Edgar", "Bueno, el revólver ya está listo. Ahora solo toca jugar.")
             s.dialogue("Roleo", "El teniente se apunta a sí mismo y dispara...")
             s.ending("teniente_suicida")
             s.ascci_end("C", "La muerte del teniente fue un calvario lento y tortuoso. Resultado de su estupidez.")
@@ -44,11 +44,11 @@ def chapter_1():
 
 def chapter_2():
     s.dialogue("Roleo", "Llegada la noche, el teniente despierta en un oasis")
-    s.dialogue("Edgar", "Sí, sí, sí... un dia mas de vida.")
+    s.dialogue("Edgar", "Sí, sí, sí... un día más de vida.")
     s.dialogue("Gonzalez", "Teniente... estamos jodidos, unos bandidos marcaron este oasis.")
     s.dialogue("Gonzalez", "Llegarán en unas horas y matarán a cualquiera que esté aquí.")
     s.dialogue("Fernandez", "Tenemos que luchar. ¡Somos soldados entrenados para eso!")
-    s.dialogue("Rodriguez", "Retirémonos no vale la pena luchar siendo solo cuatro y con suministros limitados.")
+    s.dialogue("Rodriguez", "Retirémonos, no vale la pena luchar siendo solo cuatro y con suministros limitados.")
     s.dialogue("Gonzalez", "Más aún, ¿qué pasaría si alguno de nosotros cae en batalla?")
     s.dialogue("Fernandez", "¡Maldición con ustedes!... estuvimos en plena guerra y no vamos a poder con unos bandidos.")
     s.dialogue("Fernandez", "Somos soldados con fusiles y entrenamiento, contra unos bandidos mal armados.")
@@ -64,7 +64,7 @@ def chapter_2():
         if choice_player == "1": #Segundo final
             s.pass_line()
             s.dialogue("Edgar", "Soldados, alisten sus fusiles, vamos contra esos bandidos.")
-            s.dialogue("Edgar", "No nos dejaremos intimidar por nada y ni por nadie.")
+            s.dialogue("Edgar", "No nos dejaremos intimidar por nada ni por nadie.")
             s.dialogue("Roleo", "Llegó la madrugada y a las lejanías se observó el enemigo...")
             s.ending("batallon_caido")
             s.ascci_end("B", "La muerte de todo el batallón fue en valentía ante un enemigo supremo en número.")

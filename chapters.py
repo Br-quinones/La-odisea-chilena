@@ -12,9 +12,9 @@ def chapter_1():
     s.dialogue("Roleo", "La victoria del Pacífico es para ustedes ¡Chile ganó! Pero estan atrapados en un desierto")
     s.dialogue("Fernandez", "¿Alguien sabe cuántos días llevamos tragando polvo?")
     s.dialogue("Edgar", "No pienses en eso. Solo sigue marchando.")
-    s.dialogue("Rodriguez", "¡Es fácil decirlo, cuando todavía te quedas la mayor porción de agua!")
+    s.dialogue("Rodriguez", "¡Es fácil decirlo, cuando te quedas con la mayor porción de agua!")
     s.dialogue("Gonzalez", "Rodriguez. Gritar no hace brotar agua.")
-    s.dialogue("Edgar", "Descansemos un momento. Tengo algo para ustedes.")
+    s.dialogue("Edgar", "Soldados descansemos un momento. Tengo algo para ustedes.")
     s.dialogue("Edgar", "Los suministros no alcanzarán para todos.")
     s.dialogue("Roleo", "El teniente saca un revólver")
     s.dialogue("Fernandez", "¿Teniente...?")
@@ -47,7 +47,7 @@ def chapter_1():
 def chapter_2():
     #Escena 2
     s.dialogue("Roleo", "Llegada la noche despiertas al costado de un oasis")
-    s.dialogue("Edgar", "Sí, sí, sí... un dias mas de vida.")
+    s.dialogue("Edgar", "Sí, sí, sí... un dia mas de vida.")
     s.dialogue("Gonzalez", "Teniente... estamos jodidos, unos bandidos marcaron este oasis.")
     s.dialogue("Gonzalez", "Llegaran en unas horas y matarán a cualquiera que esté aquí.")
     s.dialogue("Fernandez", "Tenemos que luchar. ¡Somos soldados entrenados para eso!")
@@ -74,7 +74,7 @@ def chapter_2():
         elif choice_player == "2":
             s.pass_line()
             s.dialogue("Edgar", "Soldados, empiecen a marchar nos retiraremos.")
-            s.dialogue("Edgar", "No vale la pena perder nuestras por un charco de agua.")
+            s.dialogue("Edgar", "No vale la pena perder nuestras vidas por un charco de agua.")
             s.dialogue("Roleo", "Las horas pasaron hasta el amanecer...")
             chapter_3() 
         else:
@@ -84,7 +84,7 @@ def chapter_3():
     s.dialogue("Gonzalez", "Teniente esos bandolos devieron de llegar de algun pueblo o asentamiento.")
     s.dialogue("Gonzalez", "Muy lejos de la civilización no devemos de estar.")
     s.dialogue("Edgar", "Busquemos aquel lugar entonces.")
-    s.dialogue("Edgar", "Shhh silencio, ¿escuchan eso? es el sonido de la civilización.")
+    s.dialogue("Edgar", "Hmmm silencio, ¿escuchan eso? es el sonido de la civilización.")
     s.dialogue("Roleo", "El batallón se acerca a aquel sonido, encontrando un campamento militar.")
     s.dialogue("Edgar", "Acerquémonos a pedir suministros.")
     s.dialogue("Extraño", "¡Hey, alto ahi o disparo!")
